@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ConectaMente — Onde sua emoção encontra acolhimento</title>
+  <meta name="description" content="ConectaMente: círculos de conexão, eventos terapêuticos e um app para jovens adultos cuidarem da saúde emocional e construírem vínculos reais." />
+  <meta name="theme-color" content="#6C63FF" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%236C63FF'/><text x='50' y='58' font-size='44' text-anchor='middle' fill='white' font-family='Arial'>C</text></svg>">
+  <style>
+    :root{ --bg:#0f1724; --card:#111827; --muted:#9aa4b2; --text:#e6eef8; --accent:#6C63FF; --accent-2:#22C55E; --radius:14px; }
+    @media (prefers-color-scheme: light){ :root{ --bg:#ffffff; --card:#f8fafc; --muted:#556074; --text:#0b1220 } }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial; background:var(--bg); color:var(--text); line-height:1.55}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.04)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#8b80ff);display:grid;place-items:center;font-weight:700}
+    nav a{color:var(--text);text-decoration:none;margin-left:16px;font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;padding:48px 0;align-items:center}
+    .hero h1{font-size:clamp(28px,4.5vw,44px);margin:0 0 12px}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),#8b80ff);color:white}
+    .btn-ghost{border:1px solid rgba(255,255,255,0.06);color:var(--text);background:transparent}
+    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    .list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    section{padding:54px 0;border-top:1px solid rgba(255,255,255,0.03)}
+    h2{margin:0 0 8px}
+    .muted{color:var(--muted)}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .feature{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:16px;border-radius:12px}
+    .pricing{display:flex;gap:12px;flex-wrap:wrap}
+    .price{flex:1;min-width:220px;padding:18px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent)}
+    .team{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    footer{padding:28px 0;color:var(--muted);border-top:1px solid rgba(255,255,255,0.03)}
+    @media (max-width:960px){ .hero{grid-template-columns:1fr} .features{grid-template-columns:1fr} .team{grid-template-columns:1fr} .list{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">CM</div>
+        <div>
+          <div style="font-weight:800">ConectaMente</div>
+          <div class="muted" style="font-size:13px">Onde sua emoção encontra acolhimento</div>
+        </div>
+      </div>
+      <nav aria-label="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#solucao">Solução</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#precos">Planos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <span class="card" style="display:inline-block;padding:6px 10px;border-radius:999px;margin-bottom:12px;color:var(--muted)">Startup Social • Saúde Mental • Jovens 18–35</span>
+        <h1>Reconectar pessoas consigo mesmas e com os outros</h1>
+        <p class="muted">Círculos de conexão, eventos terapêuticos e um app para criar vínculos reais — sem pressão e com acolhimento profissional.</p>
+        <div style="margin-top:18px">
+          <a class="btn btn-primary" href="#contato">Quero participar</a>
+          <a class="btn btn-ghost" href="#servicos" style="margin-left:12px">Ver serviços</a>
+        </div>
+        <div style="margin-top:18px" class="card">
+          <strong>Problema:</strong>
+          <p class="muted" style="margin:8px 0 0">Jovens adultos (18–35) enfrentam ansiedade, depressão e solidão. Redes sociais não substituem contato emocional real. Psicoterapia nem sempre é acessível ou imediata.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Como funciona</h3>
+        <div class="list">
+          <div>
+            <h4 style="margin:0">Círculos Temáticos</h4>
+            <p class="muted">Grupos semanais de 6–10 pessoas com facilitadores treinados — escuta empática e troca segura.</p>
+          </div>
+          <div>
+            <h4 style="margin:0">Eventos Sociais Terapêuticos</h4>
+            <p class="muted">Rodas, oficinas criativas e atividades em locais parceiros para criar vínculos leves e reais.</p>
+          </div>
+          <div>
+            <h4 style="margin:0">App ConectaMente</h4>
+            <p class="muted">Agendamento, diário emocional, match por afinidade e conteúdos de psicólogos.</p>
+          </div>
+          <div>
+            <h4 style="margin:0">Clube de Cuidados (Freemium)</h4>
+            <p class="muted">Assinatura com acesso a círculos, sessão de apoio mensal e buddy system.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="container">
+      <h2>Missão</h2>
+      <p class="muted">Reconectar pessoas com elas mesmas e com os outros, promovendo saúde mental e vínculos humanos reais.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px">
+        <div class="card">
+          <h3 style="margin-top:0">Público-alvo</h3>
+          <ul class="muted">
+            <li>Jovens adultos 18–35</li>
+            <li>Universitários, freelancers, jovens em burnout</li>
+            <li>Pessoas urbanas com vida social limitada</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Impacto social</h3>
+          <p class="muted">Reduzir quadros leves/moderados de ansiedade e depressão; criar redes de apoio e prevenir agravamentos ao normalizar o cuidado emocional coletivo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="solucao" class="container">
+      <h2>Solução ConectaMente</h2>
+      <p class="muted">Plataforma híbrida com atividades estruturadas e comunidade cuidadosa.</p>
+      <div class="features" style="margin-top:16px">
+        <div class="feature">
+          <h4 style="margin:0">Círculos Temáticos</h4>
+          <p class="muted">Facilitadores, regras de acolhimento e temas semanais para criar intimidade psicológica segura.</p>
+        </div>
+        <div class="feature">
+          <h4 style="margin:0">Eventos Presenciais</h4>
+          <p class="muted">Parcerias com cafés, coworkings e espaços culturais para encontros afetivos fora das telas.</p>
+        </div>
+        <div class="feature">
+          <h4 style="margin:0">App e Conteúdo</h4>
+          <p class="muted">Match, diário emocional e trilhas de conteúdo curado por psicólogos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="container">
+      <h2>Serviços e Experiências</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px">
+        <div class="card">
+          <h3 style="margin-top:0">Círculos semanais</h3>
+          <p class="muted">Grupos de 6–10 pessoas, 90 minutos, facilitador qualificado. Exemplos de temas: Ansiedade e Autoconhecimento; Desconstruindo a Solidão; Jovens Empreendedores Ansiosos.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Oficinas e rodadas</h3>
+          <p class="muted">Atividades práticas (escrita, pintura, improviso) com foco em expressão e conexão.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="precos" class="container">
+      <h2>Planos</h2>
+      <p class="muted">Modelo freemium — preços sugeridos.</p>
+      <div class="pricing" style="margin-top:16px">
+        <div class="price card">
+          <h3 style="margin-top:0">Free</h3>
+          <p class="muted">Acesso ao app, diário emocional e 1 convite para evento mensal.</p>
+        </div>
+        <div class="price card">
+          <h3 style="margin-top:0">Essencial — R$29/mês</h3>
+          <p class="muted">Acesso a círculos limitados e conteúdo exclusivo.</p>
+        </div>
+        <div class="price card">
+          <h3 style="margin-top:0">Ilimitado — R$59/mês</h3>
+          <p class="muted">Círculos ilimitados, 1 sessão de apoio por mês e acesso à comunidade fechada.</p>
+        </div>
+        <div class="price card">
+          <h3 style="margin-top:0">Profissional — R$99/mês</h3>
+          <p class="muted">Licenciamento da metodologia para facilitadores + treinamentos exclusivos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="time" class="container">
+      <h2>Equipe Fundadora (fictícia)</h2>
+      <div class="team" style="margin-top:16px">
+        <div class="card">
+          <h4 style="margin:0">Carla Andrade</h4>
+          <p class="muted">Psicóloga — Mestre em Saúde Mental Coletiva (CEO)</p>
+        </div>
+        <div class="card">
+          <h4 style="margin:0">Thiago Nunes</h4>
+          <p class="muted">Designer de Experiências — ex-Google (CPO)</p>
+        </div>
+        <div class="card">
+          <h4 style="margin:0">Renata Silva</h4>
+          <p class="muted">Dev Fullstack — especialista em gamificação (CTO)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container">
+      <h2>Fale com a gente</h2>
+      <p class="muted">Queremos apoiar. Preencha o formulário para saber sobre círculos, eventos ou parcerias.</p>
+      <div style="display:grid;grid-template-columns:1fr 420px;gap:18px;margin-top:16px">
+        <form class="card" action="https://formsubmit.co/SEU_EMAIL_AQUI" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <label style="display:block;margin-bottom:6px;font-weight:700">Nome</label>
+          <input name="nome" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)" />
+          <label style="display:block;margin-top:12px;margin-bottom:6px;font-weight:700">E‑mail</label>
+          <input type="email" name="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)" />
+          <label style="display:block;margin-top:12px;margin-bottom:6px;font-weight:700">Mensagem</label>
+          <textarea name="mensagem" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text);min-height:120px"></textarea>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+            <a class="btn btn-ghost" href="https://wa.me/5599999999999" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </form>
+        <div class="card">
+          <h3 style="margin-top:0">Parcerias e Universidades</h3>
+          <p class="muted">Oferecemos programas de bem-estar para universidades e empresas. Licenciamento da metodologia para profissionais de saúde mental.</p>
+          <h4>Contato institucional</h4>
+          <p class="muted">parcerias@conectamente.org</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div style="font-weight:700">ConectaMente</div>
+      <div class="muted">© <span id="ano"></span> • ConectaMente — Todos os direitos reservados</div>
+      <div class="muted">Slogan: "ConectaMente: onde sua emoção encontra acolhimento."</div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+
+  <!-- Instruções:
+    • Troque SEU_EMAIL_AQUI no form action pelo seu e‑mail ou configure um backend.
+    • Para publicar: crie um repositório no GitHub e suba este arquivo como index.html. Ative GitHub Pages (branch main / root).
+    • Posso gerar um ZIP pronto ou publicar para você — diga o que prefere.
+  -->
+</body>
+</html>
